@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'py_google_speech_node'
+package_name = 'google_speech_node'
 
 setup(
     name=package_name,
@@ -19,6 +19,6 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['speaker = py_google_speech_node.speaker:main',],
+        'console_scripts': ['speaker = google_speech_node.speaker:main',],
     },
 )
