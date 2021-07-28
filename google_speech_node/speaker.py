@@ -13,7 +13,7 @@ class MinimalSubscriber(Node):
             String,
             'speech',
             self.listener_callback,
-            10)
+            0)
         self.subscription  # prevent unused variable warning
         self.tts_client = texttospeech.TextToSpeechClient()
         self.tts_voice = texttospeech.VoiceSelectionParams(language_code="nb-NO", ssml_gender=texttospeech.SsmlVoiceGender.FEMALE)
